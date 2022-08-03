@@ -210,7 +210,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 // Module
-var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t<title>Document</title>\r\n</head>\r\n<body>\r\n\r\n\t<main>\r\n\t\t<h1>Hello5</h1>\r\n\t</main>\r\n\t\r\n</body>\r\n</html>";
+var code = "<!DOCTYPE html>\n<html lang=\"ru\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">git\n  <title>Document</title>\n</head>\n\n<body>\n\n  <main>\n    <h1>Hello5</h1>\n  </main>\n\n</body>\n\n</html>\n";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
 
@@ -665,4 +665,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=main.3d91b626d8b2bcc76c8e.js.map
+//# sourceMappingURL=main.88f79c504f8b6e3c462b.js.map

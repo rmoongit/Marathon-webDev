@@ -1,3 +1,16 @@
-@import '../style/normalize.css';
-@import '../style/variables.scss';
-@import '../style/main.scss';
+@import '../style/global/normalize.css';
+@import '../style//global/variables.scss';
+@import '../style/global/font.scss';
+@import '../style/global/main.scss';
+
+//BLOCKS
+@import '../style/blocks/header.scss';
+@import '../style/blocks/nav.scss';
+@import '../style/blocks/main-section.scss';
+@import '../style/blocks/about-us.scss';
+@import '../style/blocks/our-works.scss';
+@import '../style/blocks/team.scss';
+@import '../style/blocks/reviews.scss';
+@import '../style/blocks/form.scss';
+@import '../style/blocks/map.scss';
+@import '../style/blocks/footer.scss';
