@@ -1,0 +1,21 @@
+.footer__wrapper {
+  padding: 0 100px 37px 100px;
+}
+
+.footer__info {
+  display: flex;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+
+  a {
+    margin-right: 42px;
+    text-decoration: none;
+    color: $text;
+  }
+
+  span:last-child {
+    display: inline-block;
+    margin-left: auto;
+  }
+}

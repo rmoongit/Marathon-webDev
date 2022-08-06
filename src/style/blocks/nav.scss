@@ -1,0 +1,20 @@
+.nav {
+width: 100%;
+margin-left: 110px;
+}
+
+.nav__list {
+  @include clear-list;
+  display: flex;
+  column-gap: 29px;
+
+  .nav__list-item:nth-last-child(1) {
+    margin-left: 10px;
+  }
+
+  .nav__list-link {
+    text-decoration: none;
+    color: $text;
+    line-height: 19px;
+  }
+}

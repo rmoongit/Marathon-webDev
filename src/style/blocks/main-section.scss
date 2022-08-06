@@ -1,0 +1,33 @@
+.main-section {
+  margin-bottom: 65px;
+  background-image: url(/src/img/vysotskaya.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  min-height: 715px;
+  margin-top: -62px;
+
+  .main-section__wrapper {
+    padding-left: 184px;
+    padding-top: 150px;
+  }
+}
+
+.main-section__title {
+  width: 519px;
+  margin-bottom: 24px;
+}
+
+.main-section__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  width: 363px;
+  margin-bottom: 21px;
+}
+
+.main-section__button {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}

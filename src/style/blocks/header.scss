@@ -1,0 +1,22 @@
+.header__wrapper {
+  margin-right: auto;
+  padding: 36px 100px 0 134px;
+  display: flex;
+  align-items: center;
+  min-height: 29px;
+}
+
+.header__logo {
+
+  a {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: $text
+  }
+
+  .header__logo-text {
+    margin: 0;
+  }
+}
