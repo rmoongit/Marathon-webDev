@@ -4,11 +4,17 @@
 }
 
 .form__wrapper {
-  display: grid;
-  grid-template-columns: 507px 590px;
-  column-gap: 20px;
-  padding-left: 182px;
   min-height: 624px;
+
+  @media (min-width: 1400px) {
+    max-width: 1400px;
+    padding-left: 182px;
+    padding-right: 182px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 507px 590px;
+    column-gap: 20px;
+  }
 }
 
 .form__input {
@@ -39,4 +45,9 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+  margin-bottom: 30px;
+
+  @media (min-width: $desktop) {
+    margin-bottom: 0;
+  }
 }

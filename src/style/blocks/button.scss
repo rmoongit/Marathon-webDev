@@ -1,8 +1,12 @@
 .button {
-  width: 309px;
+  width: 100%;
   min-height: 74px;
   border: none;
   background-color: $bg-button;
   color: $text;
   cursor: pointer;
+
+  @media (min-width: $desktop) {
+    width: 309px;
+  }
 }

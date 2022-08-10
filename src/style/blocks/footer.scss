@@ -1,21 +1,33 @@
 .footer__wrapper {
-  padding: 0 100px 37px 100px;
+  padding-bottom: 37px;
+
+  @media (min-width: $desktop) {
+    padding: 0 100px 37px 100px;
+  }
 }
 
 .footer__info {
+  text-align: start;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
   margin: 0;
   font-size: 18px;
   line-height: 30px;
+  row-gap: 20px;
+  column-gap: 29px;
 
   a {
-    margin-right: 42px;
     text-decoration: none;
     color: $text;
+    margin-right: 42px;
   }
 
   span:last-child {
-    display: inline-block;
-    margin-left: auto;
+
+    @media (min-width: $desktop) {
+      display: inline-block;
+      margin-left: auto;
+    }
   }
 }

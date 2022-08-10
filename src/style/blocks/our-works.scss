@@ -3,8 +3,11 @@
 }
 
 .our-works__wrapper {
-  min-height: 1100px;
-  padding: 0 100px;
+
+  @media (min-width: $desktop) {
+    min-height: 1100px;
+    padding: 0 100px;
+  }
 }
 
 .our-works__list {
@@ -18,10 +21,13 @@
 }
 
 .our-works__title {
-  text-align: start;
+  text-align: center;
   line-height: 50px;
-  margin: 0;
   margin-bottom: 40px;
+
+  @media (min-width: $desktop) {
+    text-align: start;
+  }
 }
 
 .our-works__link {
@@ -33,23 +39,40 @@
   color: $text;
   text-decoration: none;
 
-  &::after {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 63%;
-    content: "";
-    width: 61px;
-    height: 15px;
-    background-image: url(/src/img/arrow.svg);
+    &::after {
+
+      @media (min-width: $desktop) {
+        position: absolute;
+        content: "";
+        width: 61px;
+        height: 15px;
+        background-image: url(/src/img/arrow.svg);
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 70%;
+        display: block;
+      }
   }
+}
+
+.our-works__list-item {
+  flex: auto;
 }
 
 .our-works__list-item:first-child {
   position: relative;
 }
 
+.our-works__img {
+  height: 225px;
+
+  @media (min-width: $desktop) {
+    height: auto;
+  }
+}
+
 .our-works__img-hover {
+  height: 225px;
   position: absolute;
   z-index: 10;
   transform: translate(-50%, -50%);
@@ -58,5 +81,9 @@
 
   &:hover {
     display: none;
+  }
+
+  @media (min-width: $desktop) {
+    height: auto;
   }
 }

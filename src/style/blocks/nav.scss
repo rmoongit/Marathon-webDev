@@ -1,15 +1,39 @@
 .nav {
-width: 100%;
-margin-left: 110px;
+  width: 100%;
+
+  @media (min-width: $desktop) {
+    margin-left: 110px;
+    width: 100%;
+  }
 }
 
 .nav__list {
   @include clear-list;
+  justify-content: center;
   display: flex;
-  column-gap: 29px;
+  flex-wrap: wrap;
+  column-gap: 50px;
+
+  @media (min-width: $desktop) {
+    column-gap: 28px;
+    text-align: center;
+  }
+
+  .nav__list-item {
+    padding: 15px;
+    flex: 1 auto;
+
+    @media (min-width: $desktop) {
+      padding: 0;
+    }
+  }
 
   .nav__list-item:nth-last-child(1) {
-    margin-left: 10px;
+    margin-left: 0;
+
+    @media (min-width: $desktop) {
+      margin-left: 10px;
+    }
   }
 
   .nav__list-link {

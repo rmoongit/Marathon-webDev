@@ -11,7 +11,7 @@
 <body>
 
   <header class="header">
-    <div class="header__wrapper container">
+    <div class="header__wrapper">
 
       <div class="header__logo">
         <a href="#">
@@ -33,10 +33,6 @@
       </nav>
     </div>
 
-  </header>
-
-  <main class="main">
-
     <section class="main-section">
       <div class="main-section__wrapper container">
         <h1 class="main-section__title title">Поможем сделать вашу квартиру уютнее</h1>
@@ -46,6 +42,10 @@
         <button class="main-section__button button">Оставить заявку</button>
       </div>
     </section>
+
+  </header>
+
+  <main class="main">
 
     <section class="about-us">
       <div class="about-us__wrapper container">
@@ -119,26 +119,28 @@
         </div>
 
         <div class="team__works">
-          <h2 class="team__works-title title">Как мы работаем</h2>
+          <div class="team__works-wrapper">
+            <h2 class="team__works-title title">Как мы работаем</h2>
 
-          <ul class="team__works-list">
-            <li class="team__works-list-item"><span>1</span>
-              <p>Знакомимся, выезжаем<br>
-                на объект, утверждаем<br>концепцию, подписываем<br>договор.</p>
-            </li>
-            <li class="team__works-list-item"><span>2</span>
-              <p>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
-                визуализацию.</p>
-            </li>
-            <li class="team__works-list-item"><span>3</span>
-              <p>Находим нужные магазины,<br>помогаем с доставкой<br>
-                и оплатой товаров.</p>
-            </li>
-            <li class="team__works-list-item"><span>4</span>
-              <p>Воплощаем проект в жизнь:
-                расставляем мебель и цветы, вешаем шторы, находим<br>места для мелочей</p>
-            </li>
-          </ul>
+            <ul class="team__works-list">
+              <li class="team__works-list-item"><span>1</span>
+                <p>Знакомимся, выезжаем<br>
+                  на объект, утверждаем<br>концепцию, подписываем<br>договор.</p>
+              </li>
+              <li class="team__works-list-item"><span>2</span>
+                <p>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+                  визуализацию.</p>
+              </li>
+              <li class="team__works-list-item"><span>3</span>
+                <p>Находим нужные магазины,<br>помогаем с доставкой<br>
+                  и оплатой товаров.</p>
+              </li>
+              <li class="team__works-list-item"><span>4</span>
+                <p>Воплощаем проект в жизнь:
+                  расставляем мебель и цветы, вешаем шторы, находим<br>места для мелочей</p>
+              </li>
+            </ul>
+          </div>
         </div>
 
       </div>
@@ -169,10 +171,10 @@
   </main>
 
   <form class="form" action="https://echo.htmlacademy.ru" method="post">
-    <div class="form__wrapper container">
+    <div class="form__wrapper">
 
       <div class="form__request request">
-        <div class="request__wrapper">
+        <div class="request__wrapper container">
           <h2 class="request__title">Оставить заявку</h2>
           <p class="request__text">Оставьте свои контакты. Менеджер перезвонит
             в удобное вам время и ответит на все вопросы.</p>
@@ -194,7 +196,7 @@
       <div class="form__map map">
         <iframe class="map__style"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2411.3237727031837!2d30.320980203242108!3d59.938727050551506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2s!4v1639075389269!5m2!1sru!2s"
-          width="590" height="624" style="border: 0;" allowfullscreen="" loading="lazy"
+          width="100%" height="624" style="border: 0;" allowfullscreen="" loading="lazy"
           title="Офис компании по адресу набережная реки Карповки, 5, литера П, Санкт-Петербург"></iframe>
       </div>
 

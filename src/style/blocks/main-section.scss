@@ -1,29 +1,44 @@
 .main-section {
   margin-bottom: 65px;
-  background-image: url(/src/img/vysotskaya.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100%;
-  min-height: 715px;
-  margin-top: -62px;
+  background-color: rgba(200, 190, 218, 0.3);
+
+  @media (min-width: $desktop) {
+    background-color: transparent;
+  }
 
   .main-section__wrapper {
-    padding-left: 184px;
     padding-top: 150px;
+    padding-bottom: 50px;
+
+    @media (min-width: $desktop) {
+      padding-left: 184px;
+      padding-bottom: 168px;
+    }
   }
 }
 
 .main-section__title {
-  width: 519px;
   margin-bottom: 24px;
+  text-align: center;
+  @media (min-width: $desktop) {
+    text-align: start;
+    width: 519px;
+  }
 }
 
 .main-section__text {
+  display: none;
   margin: 0;
   font-size: 18px;
   line-height: 30px;
-  width: 363px;
   margin-bottom: 21px;
+  text-align: center;
+
+  @media (min-width: $desktop) {
+    display: block;
+    text-align: start;
+    width: 363px;
+  }
 }
 
 .main-section__button {
