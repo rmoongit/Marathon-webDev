@@ -1,22 +1,22 @@
 .nav {
-  width: 100%;
 
   @media (min-width: $desktop) {
     margin-left: 110px;
-    width: 100%;
   }
 }
 
 .nav__list {
   @include clear-list;
   justify-content: center;
+  width: 175px;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 50px;
 
   @media (min-width: $desktop) {
     column-gap: 28px;
-    text-align: center;
+    row-gap: 28px;
+    text-align: start;
+    width: 100%;;
   }
 
   .nav__list-item {
